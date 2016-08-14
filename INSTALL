@@ -1,0 +1,9 @@
+Building GraySkullCoin
+
+See doc/readme-qt.rst for instructions on building GraySkullCoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of GraySkullCoin.
+
+See doc/build-*.txt for instructions on building grayskullcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of GraySkullCoin.

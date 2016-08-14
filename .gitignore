@@ -1,0 +1,34 @@
+src/*.exe
+src/grayskullcoin
+src/grayskullcoind
+src/test_grayskullcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.grayskullcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+grayskullcoin-qt
+GraySkullCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+grayskullcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
